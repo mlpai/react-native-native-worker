@@ -1,6 +1,6 @@
 {
   "name": "react-native-native-worker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React Native native module for running heavy processing tasks on background threads with concurrent task queue management",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
