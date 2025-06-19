@@ -1,0 +1,109 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled TypeScript
+lib/
+*.tsbuildinfo
+
+# Build outputs
+build/
+dist/
+
+# Package files
+*.tgz
+*.tar.gz
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Environment variables
+.env
+.env.test
+.env.production
+.env.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Android
+android/build/
+android/app/build/
+android/app/src/main/assets/
+android/app/src/main/res/drawable-*/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+*.keystore
+
+# iOS
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+*.xcworkspace
+*.xcuserdata
+ios/DerivedData/
+
+# React Native
+.react-native/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Test results
+test-results/
+junit.xml
+
+# Storybook
+storybook-static/
+
+# Example app dependencies (if example has its own node_modules)
+example/node_modules/
+example/build/
+example/android/build/
+example/ios/build/
+example/ios/Pods/
+
+# Local development
+.watchmanconfig 
