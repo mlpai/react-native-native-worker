@@ -521,6 +521,31 @@ Emitted when a background task completes (successfully or with error).
 
 ## Build and Test
 
+### Running Tests
+
+```bash
+# Run all tests
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+
+# Generate coverage report
+npm run test:coverage
+```
+
+The test suite includes comprehensive unit tests covering:
+
+- All native module methods and error scenarios
+- Event handling and cleanup
+- Integration workflows and batch operations
+- TypeScript interface validation
+- Edge cases and performance scenarios
+
+Current test coverage: 70%+ statements, 27 test cases.
+
+See `__tests__/README.md` for detailed test documentation.
+
 ### Clean and Rebuild
 
 ```bash
